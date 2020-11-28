@@ -1,13 +1,17 @@
 class Translation(object):
     START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
+Upload files by sending the file link to this bot.
+Quick way to upload files by link in telegram.
+Maximum file size allowed  <b>2GB!</b>
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 
 /help for more details..
 
-Support Group : @InFoTelGroup
-© @SpEcHlDe , @TGBotsZ & @CWProjects"""
+• Programmer: @m_mahdihajizadeh
+• Channel: @GETUPLOAD
+<b>【 Licenced By :</b> m.mahdihajizadeh  <b>】</b>
+"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
@@ -36,23 +40,27 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free Cloned User
 Expires on: 31/12/2020"""
-    HELP_USER = """Hai am URL Uploader bot..
-    
+    HELP_USER = """Upload files by sending the file link to this bot.
+Quick way to <b>upload</b> files by link in telegram.
+Maximum file size allowed  <b>2GB!</b>
+
+● help:
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-   
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/QkAkSLBgoYw">Diploy</a>
+•    SVideo - Give File as video with Screenshots
+•    DFile  - Give File with Screenshots
+•    Video  - Give File as video without Screenshots
+•    DFile  - Give File without Screenshots
+
+
 
 --------
 Send /me to know current plan details
 
-Support Group : @InFoTelGroup
-© @TGBotsZ"""
+• Programmer: @m_mahdihajizadeh
+• Channel: @GETUPLOAD
+<b>【 Licenced By :</b> m.mahdihajizadeh  <b>】</b>"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
