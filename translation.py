@@ -15,9 +15,9 @@ Maximum file size allowed  <b>2GB!</b>
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
-    NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    NOYES_URL = "I can upload to Telegram, without me slowing down for other users."
+    DOWNLOAD_START = "• Downloading..."
+    UPLOAD_START = "• Uploading..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @GETUPlOAD"
@@ -32,11 +32,7 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: Free Cloned User
-Expires on: 31/12/2020"""
+    CURENT_PLAN_DETAILS = """• id: <code>{}</code>"""
     HELP_USER = """Upload files by sending the file link to this bot.
 Quick way to <b>upload</b> files by link in telegram.
 Maximum file size allowed  <b>2GB!</b>
